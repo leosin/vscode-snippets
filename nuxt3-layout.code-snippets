@@ -1,0 +1,23 @@
+{
+	"NuxtJS": {
+		"scope": "vue",
+		"prefix": "nuxt3-layout",
+		"body": [
+		"<script lang=\"ts\" setup>"
+		"$2"
+		"</script>"
+		""
+		"<template>"
+		"	<div id=\"layout\" class=\"$1\">"
+		"		<slot />"
+		"	</div>"
+		"</template>"
+		""
+		"<style lang=\"scss\" scoped>"
+		"// ..."
+		"</style>"
+		""
+		],
+		"description": "Nuxt3 Layout Template"
+	}
+}

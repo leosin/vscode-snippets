@@ -1,0 +1,25 @@
+{
+	"NuxtJS": {
+		"scope": "vue",
+		"prefix": "nuxt3-component",
+		"body": [
+		"<script lang=\"ts\" setup>"
+		""
+		"</script>"
+		""
+		"<template>"
+		"	<section class=\"md:(py-8)\">"
+		"		<div class=\"mx-auto container\">"
+		"			<h1>The Component</h1>$1"
+		"		</div>"
+		"	</section>"
+		"</template>"
+		""
+		"<style lang=\"scss\" scoped>"
+		"// ..."
+		"</style>"
+		""
+		],
+		"description": "Nuxt3 Component Template"
+	}
+}

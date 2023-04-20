@@ -1,0 +1,21 @@
+{
+	"NuxtJS": {
+		"scope": "typescript",
+		"prefix": "nuxt3-middleware",
+		"body": [
+		"/**"
+		"* @name CodeName"
+		"* @desc Description"
+		"* @param {to} 即将要进入的目标."
+		"* @param {from} 当前导航正要离开的路由."
+		"*/"
+		""
+		"export default defineNuxtRouteMiddleware((to, from) => {"
+		"	if (to === from)"
+		"		return 'hello'"
+		"})"
+		""
+		],
+		"description": "Nuxt Page Template"
+	}
+}

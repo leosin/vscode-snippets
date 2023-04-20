@@ -1,0 +1,25 @@
+{
+	"NuxtJS": {
+		"scope": "vue",
+		"prefix": "nuxt3-app",
+		"body": [
+		"<script lang=\"ts\" setup>"
+		"$1"
+		"</script>"
+		""
+		"<template>"
+		"	<div id=\"app\">"
+		"		<NuxtLayout>"
+		"			<NuxtPage />"
+		"		</NuxtLayout>"
+		"	</div>"
+		"</template>"
+		""
+		"<style lang=\"scss\">"
+		"// ..."
+		"</style>"
+		""
+		],
+		"description": "Nuxt3 App Template"
+	}
+}

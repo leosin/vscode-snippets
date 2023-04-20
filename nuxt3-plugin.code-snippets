@@ -1,0 +1,19 @@
+{
+	"NuxtJS": {
+		"scope": "typescript",
+		"prefix": "nuxt3-plugin",
+		"body": [
+		"/**"
+		"* @name PluginName"
+		"* @desc Description"
+		"* @param {nuxtApp} 传递给插件的唯一参数."
+		"*/"
+		""
+		"export default defineNuxtPlugin((nuxtApp) => {"
+		"	console.log(nuxtApp)$1"
+		"})"
+		""
+		],
+		"description": "只有目录顶层的文件（或任何子目录中的索引文件）才会注册为插件，您可以在文件名中使用\".server\" 或 \".client\" 后缀。"
+	}
+}

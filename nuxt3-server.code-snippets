@@ -1,0 +1,22 @@
+{
+	"NuxtJS": {
+		"scope": "typescript",
+		"prefix": "nuxt3-server",
+		"body": [
+		"/**"
+		"* @name ApiName"
+		"* @desc Description"
+		"* @param {event} 传递给服务器的参数."
+		"*/"
+		""
+		"export default defineEventHandler((event) => {"
+		"	console.log(event)"
+		"	return {"
+		"		title: 'server api',"
+		"	}"
+		"})"
+		""
+		],
+		"description": "Nuxt 会自动扫描server目录中的文件。每个文件都应该导出一个用 defineEventHandler() 定义的默认函数。处理程序可以直接返回 JSON 数据、Promise 或使用 event.res.end() 发送响应。"
+	}
+}
