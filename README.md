@@ -8,3 +8,4 @@
     2. copy this snippets to this directory.
 3. for win user(sorry i never used windows..)
     maybe this directory: %APPDATA%\Code\User\snippets
+
